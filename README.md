@@ -4,6 +4,7 @@ Add "login" to edk2 standard containers to have a proper login shell along with 
 
 ### Build
 ```
+docker pull ghcr.io/tianocore/containers/ubuntu-22-dev:latest
 docker build -t edk2-ubuntu-22-dev-aj .
 ```
 
